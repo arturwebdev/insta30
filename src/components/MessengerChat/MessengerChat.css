@@ -1,0 +1,30 @@
+.MessengerChat{
+	min-width: 100%;
+	height: 72vh;
+	overflow-y: auto;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.MessengerChat h1 {
+	display: flex;
+}
+
+.me{
+	justify-content: end;
+}
+.me span{
+	margin: 5px;
+	padding: 10px 15px;
+	border: 1px solid gray;
+	border-radius: 25px 25px 0 25px;
+}
+.you{
+	justify-content: start;
+}
+.you span{
+	margin: 5px;
+	padding: 10px 15px;
+	background-color: teal;
+	color: white;
+	border-radius: 25px 25px 25px 0;
+}
